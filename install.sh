@@ -14,6 +14,12 @@ sudo apt update && sudo apt install extrepo -y
 sudo extrepo enable librewolf
 sudo apt update && sudo apt install librewolf -y
 
+curl -O mes.deb "https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/microsoft-edge-stable_138.0.3351.55-1_amd64.deb"
+sudo dpkg -i microsoft-edge-stable_138.0.3351.55-1_amd64.deb
+
+curl -L -o code.deb "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64"
+sudo dpkg -i code.deb
+
 # [Network]
 sudo apt install network-manager -y 
 
