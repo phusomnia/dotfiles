@@ -18,5 +18,5 @@ echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft.gpg] https://packa
 sudo apt update
 sudo apt install microsoft-edge-stable
 
-sudo apt install rofi thunar network-manager kitty
+sudo apt install rofi thunar network-manager kitty nitrogen
 
