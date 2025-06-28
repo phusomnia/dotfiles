@@ -196,8 +196,6 @@ include "~/.config/i3/startup.sh"
 default_border pixel 1
 # default_floating_border pixel 2
 
-# font pango:monospace 0
-
 gaps inner 0
 gaps outer 0
 
