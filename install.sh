@@ -24,7 +24,7 @@ sudo apt install kitty fish -y
 sudo apt install polybar picom -y
 
 # [Search]
-sudo apt isntall rofi -y
+sudo apt install rofi -y
 
 # [Image]
 sudo apt install nitrogen -y
