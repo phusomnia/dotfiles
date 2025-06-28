@@ -18,13 +18,13 @@ sudo apt update && sudo apt install librewolf -y
 sudo apt install network-manager -y 
 
 # [Terminal]
-sudo apt install kitty fish 
+sudo apt install kitty fish -y 
 
 # [Bar]
-sudo apt install polybar picom
+sudo apt install polybar picom -y
 
 # [Search]
-sudo apt isntall rofi
+sudo apt isntall rofi -y
 
 # [Image]
-sudo apt install nitrogen
+sudo apt install nitrogen -y
