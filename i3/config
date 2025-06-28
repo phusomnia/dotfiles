@@ -194,12 +194,12 @@ bindsym $mod+r mode "resize"
 include "~/.config/i3/startup.sh"
 
 default_border pixel 1
-# default_floating_border pixel 2
+default_floating_border pixel 1
 
 gaps inner 0
 gaps outer 0
 
 client.focused #ffffff #99000000 #ffffff #ffffff #ffffff
-client.unfocused #99000000 #99000000 #ffffff #ffffff #ffffff
-for_window [class="Code"] border pixel 1
+# client.unfocused #99000000 #99000000 #ffffff #ffffff #ffffff
+# for_window [class="Code"] border pixel 1
 
