@@ -15,5 +15,4 @@ sudo extrepo enable librewolf
 sudo apt update && sudo apt install librewolf -y
 
 # [Requirement]
-sudo apt install rofi thunar lightdm network-manager kitty nitrogen -y
-
+sudo apt install rofi thunar lightdm network-manager kitty nitrogen fish -y
