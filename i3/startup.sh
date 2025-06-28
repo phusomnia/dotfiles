@@ -1,5 +1,5 @@
 # [rofi]
-bindsym $mod+shift+d exec rofi -show run
+bindsym $mod+shift+d exec rofi -show drun
 
 # [polybar]
 exec_always --no-startup-id bash -c "pkill -9 polybar; polybar top &"
